@@ -1,8 +1,9 @@
-import json
-import keys
+from decouple import config
 import requests as re
+import json
 
-my_key = keys.api_key
+
+my_key = config("OPENAI_API_KEY")
 URL = "https://api.openai.com/v1/chat/completions"
 
 payload = {
