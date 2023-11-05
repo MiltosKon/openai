@@ -1,0 +1,5 @@
+echo # Ignore virtual environment directories > .gitignore
+echo venv/ >> .gitignore
+echo __pycache/ >> .gitignore  REM Optionally, to ignore Python's pycache files
+echo # Ignore environment variable files >> .gitignore
+echo .env >> .gitignore
